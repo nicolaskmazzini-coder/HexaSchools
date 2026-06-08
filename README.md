@@ -1,6 +1,6 @@
 # HexaSchools
 
-Gestão institucional (escolas, membros, turmas) separada da plataforma de cursos [Hexavante](../hexavante).
+Gestão institucional (escolas, membros, turmas) separada da plataforma de cursos [Hexavante](https://github.com/nicolaskmazzini-coder/Hexavante-Project).
 
 ## Stack
 
@@ -29,15 +29,3 @@ Cursos institucionais podem vincular um **slug** de curso publicado no Hexavante
 | diretor@hexaschools.com | Diretor123! |
 | professor@hexaschools.com | Professor123! |
 | aluno@hexaschools.com | Aluno123! |
-
-## Repositório
-
-Este projeto deve ficar em um repositório Git separado do Hexavante. Após criar o remote:
-
-```bash
-git init
-git add .
-git commit -m "Initial HexaSchools split from Hexavante"
-git remote add origin <url-do-repo-hexaschools>
-git push -u origin main
-```
